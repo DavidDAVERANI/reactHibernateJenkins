@@ -1,0 +1,3 @@
+#No track distribution dir for developers repository
+target
+src/main/resources/static/react-project-1/node_modules

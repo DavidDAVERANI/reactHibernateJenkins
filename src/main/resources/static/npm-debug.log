@@ -1,0 +1,189 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\freedom\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'create-react-app' ]
+2 info using npm@2.7.3
+3 info using node@v6.11.4
+4 silly cache add args [ 'create-react-app', null ]
+5 verbose cache add spec create-react-app
+6 silly cache add parsed spec Result {
+6 silly cache add   raw: 'create-react-app',
+6 silly cache add   scope: null,
+6 silly cache add   name: 'create-react-app',
+6 silly cache add   rawSpec: '',
+6 silly cache add   spec: '*',
+6 silly cache add   type: 'range' }
+7 verbose addNamed create-react-app@*
+8 silly addNamed semver.valid null
+9 silly addNamed semver.validRange *
+10 silly addNameRange { name: 'create-react-app', range: '*', hasData: false }
+11 silly mapToRegistry name create-react-app
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry uri https://registry.npmjs.org/create-react-app
+15 verbose addNameRange registry:https://registry.npmjs.org/create-react-app not in flight; fetching
+16 verbose request uri https://registry.npmjs.org/create-react-app
+17 verbose request no auth needed
+18 info attempt registry request try #1 at 19:28:27
+19 verbose request id a804a8952bd1c2ae
+20 verbose etag W/"59e5271e-d1fb"
+21 verbose lastModified Mon, 16 Oct 2017 21:39:42 GMT
+22 http request GET https://registry.npmjs.org/create-react-app
+23 http 200 https://registry.npmjs.org/create-react-app
+24 silly get cb [ 200,
+24 silly get   { server: 'nginx/1.10.1',
+24 silly get     'content-type': 'application/json',
+24 silly get     'last-modified': 'Wed, 18 Oct 2017 23:49:02 GMT',
+24 silly get     etag: 'W/"59e7e86e-d20c"',
+24 silly get     'content-encoding': 'gzip',
+24 silly get     'cache-control': 'max-age=300',
+24 silly get     'content-length': '5755',
+24 silly get     'accept-ranges': 'bytes',
+24 silly get     date: 'Thu, 19 Oct 2017 17:28:29 GMT',
+24 silly get     via: '1.1 varnish',
+24 silly get     age: '62',
+24 silly get     connection: 'keep-alive',
+24 silly get     'x-served-by': 'cache-lcy1148-LCY',
+24 silly get     'x-cache': 'HIT',
+24 silly get     'x-cache-hits': '1',
+24 silly get     'x-timer': 'S1508434109.412128,VS0,VE1',
+24 silly get     vary: 'Accept-Encoding, Accept' } ]
+25 verbose get saving create-react-app to C:\Users\freedom\AppData\Roaming\npm-cache\registry.npmjs.org\create-react-app\.cache.json
+26 silly addNameRange number 2 { name: 'create-react-app', range: '*', hasData: true }
+27 silly addNameRange versions [ 'create-react-app',
+27 silly addNameRange   [ '0.0.0',
+27 silly addNameRange     '0.1.0',
+27 silly addNameRange     '0.2.0-alpha.1',
+27 silly addNameRange     '0.2.0',
+27 silly addNameRange     '0.3.0',
+27 silly addNameRange     '0.4.2',
+27 silly addNameRange     '0.4.2-alpha.8f28c56e',
+27 silly addNameRange     '0.5.0',
+27 silly addNameRange     '0.6.0',
+27 silly addNameRange     '0.6.0-alpha.e756d73a',
+27 silly addNameRange     '0.6.0-alpha.9c45b252',
+27 silly addNameRange     '0.7.0',
+27 silly addNameRange     '1.0.0',
+27 silly addNameRange     '1.0.1',
+27 silly addNameRange     '1.0.2',
+27 silly addNameRange     '1.0.3',
+27 silly addNameRange     '1.0.4',
+27 silly addNameRange     '1.1.0',
+27 silly addNameRange     '1.2.0',
+27 silly addNameRange     '1.2.1',
+27 silly addNameRange     '1.3.0',
+27 silly addNameRange     '1.3.0-alpha.58689133',
+27 silly addNameRange     '1.3.0-alpha.dadf93b2',
+27 silly addNameRange     '1.3.0-alpha.134d2297',
+27 silly addNameRange     '1.3.0-alpha.e280254d',
+27 silly addNameRange     '1.3.0-alpha.c82c4f05',
+27 silly addNameRange     '1.3.0-alpha.0d0536f9',
+27 silly addNameRange     '1.3.0-alpha.02968ecd',
+27 silly addNameRange     '1.3.0-alpha.55afd862',
+27 silly addNameRange     '1.3.1',
+27 silly addNameRange     '1.3.1-alpha.60ae2b6d',
+27 silly addNameRange     '1.3.2',
+27 silly addNameRange     '1.3.3',
+27 silly addNameRange     '1.4.0',
+27 silly addNameRange     '1.4.1' ] ]
+28 verbose addNamed create-react-app@1.4.1
+29 silly addNamed semver.valid 1.4.1
+30 silly addNamed semver.validRange 1.4.1
+31 silly cache afterAdd create-react-app@1.4.1
+32 verbose afterAdd C:\Users\freedom\AppData\Roaming\npm-cache\create-react-app\1.4.1\package\package.json not in flight; writing
+33 verbose afterAdd C:\Users\freedom\AppData\Roaming\npm-cache\create-react-app\1.4.1\package\package.json written
+34 silly install resolved [ { name: 'create-react-app',
+34 silly install resolved     version: '1.4.1',
+34 silly install resolved     keywords: [ 'react' ],
+34 silly install resolved     description: 'Create React apps with no build configuration.',
+34 silly install resolved     repository:
+34 silly install resolved      { type: 'git',
+34 silly install resolved        url: 'git+https://github.com/facebookincubator/create-react-app.git' },
+34 silly install resolved     license: 'MIT',
+34 silly install resolved     engines: { node: '>=4' },
+34 silly install resolved     bugs: { url: 'https://github.com/facebookincubator/create-react-app/issues' },
+34 silly install resolved     files: [ 'index.js', 'createReactApp.js' ],
+34 silly install resolved     bin: { 'create-react-app': './index.js' },
+34 silly install resolved     dependencies:
+34 silly install resolved      { chalk: '^1.1.1',
+34 silly install resolved        commander: '^2.9.0',
+34 silly install resolved        'cross-spawn': '^4.0.0',
+34 silly install resolved        'fs-extra': '^1.0.0',
+34 silly install resolved        hyperquest: '^2.1.2',
+34 silly install resolved        semver: '^5.0.3',
+34 silly install resolved        'tar-pack': '^3.4.0',
+34 silly install resolved        tmp: '0.0.31',
+34 silly install resolved        'validate-npm-package-name': '^3.0.0' },
+34 silly install resolved     homepage: 'https://github.com/facebookincubator/create-react-app#readme',
+34 silly install resolved     _id: 'create-react-app@1.4.1',
+34 silly install resolved     _npmVersion: '5.3.0',
+34 silly install resolved     _nodeVersion: '8.5.0',
+34 silly install resolved     _npmUser: { name: 'timer', email: 'timer150@gmail.com' },
+34 silly install resolved     dist:
+34 silly install resolved      { integrity: 'sha512-2cmJvsryyIRGyOyBGgpKwj8371lMu4TrbkZPP1DcWnxgFbi3xWMFc98nsN3Wms8Dcl1S1EUtrNTdxIWG2qnFZw==',
+34 silly install resolved        shasum: '1a9205f2ec509f1869805b5d0822e0c515bd1736',
+34 silly install resolved        tarball: 'https://registry.npmjs.org/create-react-app/-/create-react-app-1.4.1.tgz' },
+34 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object] ],
+34 silly install resolved     _npmOperationalInternal:
+34 silly install resolved      { host: 's3://npm-registry-packages',
+34 silly install resolved        tmp: 'tmp/create-react-app-1.4.1.tgz_1506471592738_0.8079167185351253' },
+34 silly install resolved     directories: {},
+34 silly install resolved     _shasum: '1a9205f2ec509f1869805b5d0822e0c515bd1736',
+34 silly install resolved     _resolved: 'https://registry.npmjs.org/create-react-app/-/create-react-app-1.4.1.tgz',
+34 silly install resolved     _from: 'create-react-app@*',
+34 silly install resolved     readme: 'ERROR: No README data found!' } ]
+35 info install create-react-app@1.4.1 into C:\Program Files\nodejs
+36 info installOne create-react-app@1.4.1
+37 verbose installOne of create-react-app to C:\Program Files\nodejs not in flight; installing
+38 verbose lock using C:\Users\freedom\AppData\Roaming\npm-cache\_locks\create-react-app-0eef7185578d2753.lock for C:\Program Files\nodejs\node_modules\create-react-app
+39 silly install write writing create-react-app 1.4.1 to C:\Program Files\nodejs\node_modules\create-react-app
+40 silly cache addNamed cb create-react-app@1.4.1
+41 verbose unbuild node_modules\create-react-app
+42 silly gentlyRm C:\Program Files\nodejs\node_modules\create-react-app is being purged from base C:\Program Files\nodejs
+43 verbose gentlyRm don't care about contents; nuking C:\Program Files\nodejs\node_modules\create-react-app
+44 verbose tar unpack C:\Users\freedom\AppData\Roaming\npm-cache\create-react-app\1.4.1\package.tgz
+45 verbose tar unpacking to C:\Program Files\nodejs\node_modules\create-react-app
+46 silly gentlyRm C:\Program Files\nodejs\node_modules\create-react-app is being purged
+47 verbose gentlyRm don't care about contents; nuking C:\Program Files\nodejs\node_modules\create-react-app
+48 silly gunzTarPerm modes [ '777', '666' ]
+49 error tar.unpack untar error C:\Users\freedom\AppData\Roaming\npm-cache\create-react-app\1.4.1\package.tgz
+50 verbose unlock done using C:\Users\freedom\AppData\Roaming\npm-cache\_locks\create-react-app-0eef7185578d2753.lock for C:\Program Files\nodejs\node_modules\create-react-app
+51 verbose fstream_path C:\Program Files\nodejs\node_modules\create-react-app
+52 verbose fstream_type Directory
+53 verbose fstream_class DirWriter
+54 verbose stack Error: EPERM: operation not permitted, mkdir 'C:\Program Files\nodejs\node_modules\create-react-app'
+54 verbose stack     at Error (native)
+55 verbose fstream_stack C:\Users\freedom\AppData\Roaming\npm\node_modules\npm\node_modules\fstream\lib\dir-writer.js:36:23
+55 verbose fstream_stack C:\Users\freedom\AppData\Roaming\npm\node_modules\npm\node_modules\mkdirp\index.js:46:53
+55 verbose fstream_stack FSReqWrap.oncomplete (fs.js:123:15)
+56 verbose cwd C:\Users\freedom\workspace\springbootfirstapp\src\main\resources\static
+57 error Windows_NT 6.1.7601
+58 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\freedom\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "create-react-app"
+59 error node v6.11.4
+60 error npm  v2.7.3
+61 error path C:\Program Files\nodejs\node_modules\create-react-app
+62 error code EPERM
+63 error errno -4048
+64 error syscall mkdir
+65 error Error: EPERM: operation not permitted, mkdir 'C:\Program Files\nodejs\node_modules\create-react-app'
+65 error     at Error (native)
+65 error  { Error: EPERM: operation not permitted, mkdir 'C:\Program Files\nodejs\node_modules\create-react-app'
+65 error     at Error (native)
+65 error   errno: -4048,
+65 error   code: 'EPERM',
+65 error   syscall: 'mkdir',
+65 error   path: 'C:\\Program Files\\nodejs\\node_modules\\create-react-app',
+65 error   fstream_type: 'Directory',
+65 error   fstream_path: 'C:\\Program Files\\nodejs\\node_modules\\create-react-app',
+65 error   fstream_class: 'DirWriter',
+65 error   fstream_stack:
+65 error    [ 'C:\\Users\\freedom\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\fstream\\lib\\dir-writer.js:36:23',
+65 error      'C:\\Users\\freedom\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\mkdirp\\index.js:46:53',
+65 error      'FSReqWrap.oncomplete (fs.js:123:15)' ] }
+66 error Please try running this command again as root/Administrator.
+67 verbose exit [ -4048, true ]
+68 verbose unbuild node_modules\create-react-app
+69 silly gentlyRm C:\Program Files\nodejs\node_modules\create-react-app is being purged from base C:\Program Files\nodejs
+70 verbose gentlyRm don't care about contents; nuking C:\Program Files\nodejs\node_modules\create-react-app
