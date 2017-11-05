@@ -12,20 +12,18 @@
 	<artifactId>spring-boot-starter-parent</artifactId>
 	<version>1.5.2.RELEASE</version>
   </parent>
-
   <distributionManagement>
-    <repository>
-      <id>nexus_release</id>
-      <name>Releases</name>
-      <url>http://51.15.180.83:8081/repository/maven-releases</url>
-    </repository>
-    <snapshotRepository>
-    	<id>nexus_snapshot</id>
-    	<name>Snapshots</name>
-    	<url>http://51.15.180.83:8081/repository/maven-snapshots/</url>
-    </snapshotRepository>
+  	<repository>
+  		<id>nexus_release</id>
+  		<name>Releases</name>
+  		<url>http://51.15.180.83:8081/repository/maven-releases</url>
+  	</repository>
+  	<snapshotRepository>
+  		<id>nexus_snapshot</id>
+  		<name>Snapshots</name>
+  		<url>http://51.15.180.83:8081/repository/maven-snapshots/</url>
+  	</snapshotRepository>
   </distributionManagement>
-
   <dependencies>
 	    <dependency>
 		    <groupId>org.springframework.boot</groupId>
