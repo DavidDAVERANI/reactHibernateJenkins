@@ -4,3 +4,4 @@ Projet pour tester :
  Hibernate
  React.js
  Jenkins
+ nexus
