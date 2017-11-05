@@ -6,3 +6,4 @@ Projet pour tester :
  Jenkins
  nexus
 linkin all
+test start pipeline from git push
