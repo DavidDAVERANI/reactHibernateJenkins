@@ -15,12 +15,12 @@
 
   <distributionManagement>
     <repository>
-      <id>nexus</id>
+      <id>nexus.release</id>
       <name>Releases</name>
-      <url>http://localhost:8081/repository/maven-releases</url>
+      <url>http://51.15.180.83:8081/repository/maven-releases</url>
     </repository>
     <snapshotRepository>
-      <id>nexus</id>
+      <id>nexus.snapshot</id>
 	  <name>Snapshots</name>
       <url>http://51.15.180.83:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
